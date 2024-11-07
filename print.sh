@@ -20,9 +20,9 @@ Coming to shell, we provide extension usually as .sh to tell that is a shell scr
 
 echo Hello World
 
-#print colors
+# print colors
 
-syntax: echo -e "\e[COLmHello World\e[m"
+# syntax: echo -e "\e[COLmHello World\e[m"
 # echo -e, -e - enable colors
 # \e[COLm - Tell which color
 # \e[0m - Disable color
