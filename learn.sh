@@ -20,9 +20,9 @@ Coming to shell, we provide extension usually as .sh to tell that is a shell scr
 
 echo Hello World
 
-#print colors
+# print colors
 
-syntax: echo -e "\e[COLmHello World\e[m"
+# syntax: echo -e "\e[COLmHello World\e[m"
 # echo -e, -e - enable colors
 # \e[COLm - Tell which color
 # \e[0m - Disable color
@@ -43,3 +43,7 @@ echo -e "\e[33mHello World in Yellow Color\e[0m"
 echo -e "\e[34mHello World in Blue Color\e[0m"
 echo -e "\e[35mHello World in Magenta Color\e[0m"
 echo -e "\e[36mHello World in Cyan Color\e[0m"
+
+
+# To rerun a command so that it will not ask permission to execute commands also it will fail
+rm -rf /app
