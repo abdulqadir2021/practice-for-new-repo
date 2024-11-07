@@ -1,5 +1,3 @@
-# practice-for-new-repo
-hello
 
 # learning shell
 This is a testing purpose to edit code
@@ -27,7 +25,7 @@ echo Hello World
 syntax: echo -e "\e[COLmHello World\e[m"
 # echo -e, -e - enable colors
 # \e[COLm - Tell which color
-# \e[0m - Disable color 
+# \e[0m - Disable color
 
 # COL       - CODE
 # RED       - 31
