@@ -3,7 +3,7 @@
 
 # To access variable we use $variable or ${variable}
 
-trainer=john
+trainer=Steve
 
 echo DevOps Trainer - $trainer
 echo AWS Trainer - $trainer
