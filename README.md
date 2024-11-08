@@ -45,3 +45,6 @@ echo -e "\e[33mHello World in Yellow Color\e[0m"
 echo -e "\e[34mHello World in Blue Color\e[0m"
 echo -e "\e[35mHello World in Magenta Color\e[0m"
 echo -e "\e[36mHello World in Cyan Color\e[0m"
+
+## Exit status
+

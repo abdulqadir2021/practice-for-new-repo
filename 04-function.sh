@@ -9,4 +9,17 @@ sample() {
 #  call the function
 
 sample
+# Special Variables
+# $1 - $n
+# $# - No of arguments
+
+sample1() {
+  echo First Arguments -$1
+  echo All Arguments - $*
+  echo Arguments Count - $#
+}
+
+sample1 "Hello World" abc 123
+
+
 
