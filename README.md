@@ -58,3 +58,7 @@ These failures depends up on the command we are using.
 We will get the status from a variable calledd as ?, To access this value we give $?
 
 If we want to exit the script with our own status then we can use 'exit' command.
+
+...shell
+exit 0 # success
+exit 1 # failure with status 1
