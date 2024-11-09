@@ -47,4 +47,14 @@ echo -e "\e[35mHello World in Magenta Color\e[0m"
 echo -e "\e[36mHello World in Cyan Color\e[0m"
 
 ## Exit status
+Status of the command, It returns a number determining the status.
+Number range from 0-255
 
+0- Universal Success
+
+1-255 - Partial Success / Partial Failure / Failure
+These failures depends up on the command we are using.
+
+We will get the status from a variable calledd as ?, To access this value we give $?
+
+If we want to exit the script with our own status then we can use 'exit' command.
