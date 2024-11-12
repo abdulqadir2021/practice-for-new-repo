@@ -50,10 +50,10 @@
 fruit=orange
 
 case $fruit in
- orange)
+  orange)
     echo Available Quantity - 100
     ;;
- banana)
+  banana)
     echo Available Quantity - 200
     ;;
 esac
