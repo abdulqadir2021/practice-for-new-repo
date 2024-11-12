@@ -46,7 +46,9 @@
 #esac
 
 # However we don't prefer to do much with case command, because it can do only string comparison like two strings are equal or not equal
+
 fruit=orange
+
 case $fruit in
  orange)
    echo Available Quantity - 100
@@ -54,4 +56,4 @@ case $fruit in
  banana)
    echo Available Quantity - 200
    ;;
- esac
+esac
