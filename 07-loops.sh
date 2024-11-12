@@ -10,6 +10,6 @@ done
 # while loop
 
 x=10
-while { $x -gt 0 }; do
+while [ $x -gt 0 ]; do
   echo Value x - $x
 done
