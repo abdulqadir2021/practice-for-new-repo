@@ -18,4 +18,18 @@ echo AWS Trainer - $trainer
 # example - trainer - "John Jacob"
 
 
+# src=x.txt
+# dest=y.txt
+# cp $src $dest
 
+# command substitution
+# variable=$(command)
+# Above command output will go to variable
+
+date=$(date)
+
+# Arthematic substitution
+# var=$((expression))
+x=$((2+3))
+echo $x
+# Often to deal with expressions in better we use a cli tool called as bc rather than this, this will help you with basic operation.
