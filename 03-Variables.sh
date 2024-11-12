@@ -39,6 +39,9 @@ echo $x
 # x=20
 # second time x will get replaced with out any warnings or errors
 
+# Assume example.sh is having the following code.
+# echo x - $x
+
 # 2. Variables declared in CLI cannot be accessed when we execute the script
 # x=20
 # bash example.sh
