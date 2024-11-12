@@ -18,29 +18,4 @@ echo AWS Trainer - $trainer
 # example - trainer - "John Jacob"
 
 
-# src=x.txt
-# dest=y.txt
-# cp $src $dest
 
-# command substitution
-#variable=$(command)
-# Above command output will go to variable
-
-date=$(date)
-
-#Arthemetic substitution
-#var=$((expression))
-x=$((2+3))
-echo $x
-# Often to deal with expressions in better we use a cli tool called as bc rather than this, this substitution will help you with basic operations.
-
-# Scenarios.
-# 1. We can overwrite the variable
-# x=10
-# x=20
-# second time x will get replaced with out any warnings or errors.
-
-# 2. variables declared in CLI cannot be accessed when we execute the script
-# x=20
-# bash example.sh
-# some times we need to send the x value to the script and it can be done in three ways.
