@@ -69,4 +69,11 @@ exit 1 # failure with status 1
 2. Functions
 3. conditions
 4. loops
-5. 
+
+# log redirection
+# > - output redirect
+# 1> - output 2> error
+# &> output & error
+# >> to append
+# We can use a special file called as /dev/null in case if we dont want any output to store on file and neither on screen then we redirect to this file.
+# &>/dev/null
